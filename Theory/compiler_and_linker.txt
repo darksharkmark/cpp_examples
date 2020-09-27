@@ -1,0 +1,8 @@
+code is just text we need to then compile the code and link it
+compiler turns text into "object files"
+preproccessor runs
+abstract syntax tree
+constant data or instructions
+#include literally pastes the file in
+anything constant at compile time will be done at compile time
+theres no point in doing work at runtime if its constant
