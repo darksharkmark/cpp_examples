@@ -1,3 +1,5 @@
+- compiler
+
 code is just text we need to then compile the code and link it
 compiler turns text into "object files"
 preproccessor runs
@@ -6,3 +8,9 @@ constant data or instructions
 #include literally pastes the file in
 anything constant at compile time will be done at compile time
 theres no point in doing work at runtime if its constant
+
+- linker
+
+find each symbol and each function and link them up together
+'static' means that the function or variable is only for that translation unit (that file)
+
